@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import musicapp from "@/public/musicapp.png";
+import tunebridgepreview from "@/public/tunebridgepreview.png";
 import { IprojectsData } from "./types";
 
 export const links = [
@@ -77,13 +78,22 @@ export const experiencesData = [
 
 export const projectsData: IprojectsData[] = [
   {
-    title: "Not-ify",
+    title: "Cadence",
     description:
       "Full stack music streaming platform that allows users to upload and listen to music, features stripe subscription intergration.",
     tags: ["React", "Next.js", "Supabase", "Tailwind", "Stripe"],
     imageUrl: musicapp,
-    liveDemo: "",
+    liveDemo: "https://cadencestream.vercel.app/",
     github: "https://github.com/CieranNicholas/Fullstack-Music-App",
+  },
+  {
+    title: "Tunebridge",
+    description:
+      "Web app that allows users to convert Spotify playlists to Youtube playlists, using both the Spotify and Youtube API.",
+    tags: ["React", "Next.js", "Oauth2", "Tailwind", "Framer Motion"],
+    imageUrl: tunebridgepreview,
+    liveDemo: "https://tunebridge.vercel.app/",
+    github: "https://github.com/CieranNicholas/spotify-youtube-converter",
   },
 ];
 

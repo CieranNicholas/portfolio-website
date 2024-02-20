@@ -54,6 +54,7 @@ export default function Project({
               <a
                 className='text-[0.8rem] group bg-black/[0.7] text-white px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/70'
                 href={liveDemo}
+                target='_blank'
               >
                 Live Demo
                 <FaGlobe className='opacity-60 group-hover:scale-125 transition' />
