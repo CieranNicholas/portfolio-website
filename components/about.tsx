@@ -28,9 +28,9 @@ const About = () => {
       </p>
       <p>
         🌐 When I'm not coding, my creativity takes on new forms. I'm a music
-        producer and hobbyist Unreal Engine game developer. Whether I'm making
-        songs or building virtual worlds, my joy comes from translating ideas
-        into captivating user experiences.
+        producer and hobbyist game developer. Whether I'm making songs or
+        building virtual worlds, my joy comes from translating ideas into
+        captivating user experiences.
       </p>
     </motion.section>
   );

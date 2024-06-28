@@ -29,7 +29,7 @@ const Intro = () => {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src='/lordchungus.jpg'
+              src='/me.jpeg'
               alt='Cierans Portrait'
               width={192}
               height={192}
